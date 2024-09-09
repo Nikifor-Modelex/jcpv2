@@ -1,0 +1,1232 @@
+[
+    [
+        "bipush",
+        16,
+        "1:byte",
+        "→ value"
+    ],
+    [
+        "sipush",
+        17,
+        "2:byte,byte",
+        "→ value"
+    ],
+    [
+        "ldc",
+        18,
+        "1:cpb",
+        "→ value"
+    ],
+    [
+        "ldc_w",
+        19,
+        "2:cps",
+        "→ value"
+    ],
+    [
+        "ldc2_w",
+        20,
+        "2:cps",
+        "→ value"
+    ],
+    [
+        "iload",
+        21,
+        "1:index",
+        "→ value"
+    ],
+    [
+        "lload",
+        22,
+        "1:index",
+        "→ value"
+    ],
+    [
+        "fload",
+        23,
+        "1:index",
+        "→ value"
+    ],
+    [
+        "dload",
+        24,
+        "1:index",
+        "→ value"
+    ],
+    [
+        "aload",
+        25,
+        "1:index",
+        "→ objectref"
+    ],
+    [
+        "lload_2",
+        32,
+        "0:",
+        "→ value"
+    ],
+    [
+        "lload_3",
+        33,
+        "0:",
+        "→ value"
+    ],
+    [
+        "fload_0",
+        34,
+        "0:",
+        "→ value"
+    ],
+    [
+        "fload_1",
+        35,
+        "0:",
+        "→ value"
+    ],
+    [
+        "fload_2",
+        36,
+        "0:",
+        "→ value"
+    ],
+    [
+        "fload_3",
+        37,
+        "0:",
+        "→ value"
+    ],
+    [
+        "dload_0",
+        38,
+        "0:",
+        "→ value"
+    ],
+    [
+        "dload_1",
+        39,
+        "0:",
+        "→ value"
+    ],
+    [
+        "dload_2",
+        40,
+        "0:",
+        "→ value"
+    ],
+    [
+        "dload_3",
+        41,
+        "0:",
+        "→ value"
+    ],
+    [
+        "faload",
+        48,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "daload",
+        49,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "aaload",
+        50,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "baload",
+        51,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "caload",
+        52,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "saload",
+        53,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "istore",
+        54,
+        "1:index",
+        "value →"
+    ],
+    [
+        "lstore",
+        55,
+        "1:index",
+        "value →"
+    ],
+    [
+        "fstore",
+        56,
+        "1:index",
+        "value →"
+    ],
+    [
+        "dstore",
+        57,
+        "1:index",
+        "value →"
+    ],
+    [
+        "lstore_1",
+        64,
+        "0:",
+        "value →"
+    ],
+    [
+        "lstore_2",
+        65,
+        "0:",
+        "value →"
+    ],
+    [
+        "lstore_3",
+        66,
+        "0:",
+        "value →"
+    ],
+    [
+        "fstore_0",
+        67,
+        "0:",
+        "value →"
+    ],
+    [
+        "fstore_1",
+        68,
+        "0:",
+        "value →"
+    ],
+    [
+        "fstore_2",
+        69,
+        "0:",
+        "value →"
+    ],
+    [
+        "fstore_3",
+        70,
+        "0:",
+        "value →"
+    ],
+    [
+        "dstore_0",
+        71,
+        "0:",
+        "value →"
+    ],
+    [
+        "dstore_1",
+        72,
+        "0:",
+        "value →"
+    ],
+    [
+        "dstore_2",
+        73,
+        "0:",
+        "value →"
+    ],
+    [
+        "lastore",
+        80,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "fastore",
+        81,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "dastore",
+        82,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "aastore",
+        83,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "bastore",
+        84,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "castore",
+        85,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "sastore",
+        86,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "pop",
+        87,
+        "0:",
+        "value →"
+    ],
+    [
+        "pop2",
+        88,
+        "0:",
+        "{value2, value1} →"
+    ],
+    [
+        "dup",
+        89,
+        "0:",
+        "value → value, value"
+    ],
+    [
+        "iadd",
+        96,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "ladd",
+        97,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "fadd",
+        98,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dadd",
+        99,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "isub",
+        100,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lsub",
+        101,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "fsub",
+        102,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dsub",
+        103,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "imul",
+        104,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lmul",
+        105,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "irem",
+        112,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lrem",
+        113,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "frem",
+        114,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "drem",
+        115,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "ineg",
+        116,
+        "0:",
+        "value → result"
+    ],
+    [
+        "lneg",
+        117,
+        "0:",
+        "value → result"
+    ],
+    [
+        "fneg",
+        118,
+        "0:",
+        "value → result"
+    ],
+    [
+        "dneg",
+        119,
+        "0:",
+        "value → result"
+    ],
+    [
+        "ishl",
+        120,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lshl",
+        121,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "ior",
+        128,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lor",
+        129,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "ixor",
+        130,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lxor",
+        131,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "iinc",
+        132,
+        "2:short,byte",
+        "[No change]"
+    ],
+    [
+        "i2l",
+        133,
+        "0:",
+        "value → result"
+    ],
+    [
+        "i2f",
+        134,
+        "0:",
+        "value → result"
+    ],
+    [
+        "i2d",
+        135,
+        "0:",
+        "value → result"
+    ],
+    [
+        "l2i",
+        136,
+        "0:",
+        "value → result"
+    ],
+    [
+        "l2f",
+        137,
+        "0:",
+        "value → result"
+    ],
+    [
+        "d2f",
+        144,
+        "0:",
+        "value → result"
+    ],
+    [
+        "i2b",
+        145,
+        "0:",
+        "value → result"
+    ],
+    [
+        "i2c",
+        146,
+        "0:",
+        "value → result"
+    ],
+    [
+        "i2s",
+        147,
+        "0:",
+        "value → result"
+    ],
+    [
+        "lcmp",
+        148,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "fcmpl",
+        149,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "fcmpg",
+        150,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dcmpl",
+        151,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dcmpg",
+        152,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "ifeq",
+        153,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "aconst_null",
+        1,
+        "0:",
+        "→ null"
+    ],
+    [
+        "aload_0",
+        42,
+        "0:",
+        "→ objectref"
+    ],
+    [
+        "aload_1",
+        43,
+        "0:",
+        "→ objectref"
+    ],
+    [
+        "aload_2",
+        44,
+        "0:",
+        "→ objectref"
+    ],
+    [
+        "aload_3",
+        45,
+        "0:",
+        "→ objectref"
+    ],
+    [
+        "anewarray",
+        189,
+        "2:cps",
+        "count → arrayref"
+    ],
+    [
+        "areturn",
+        176,
+        "0:",
+        "objectref → [empty]"
+    ],
+    [
+        "arraylength",
+        190,
+        "0:",
+        "arrayref → length"
+    ],
+    [
+        "astore",
+        58,
+        "1:index",
+        "objectref →"
+    ],
+    [
+        "astore_0",
+        75,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "astore_1",
+        76,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "astore_2",
+        77,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "astore_3",
+        78,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "athrow",
+        191,
+        "0:",
+        "objectref → [empty], objectref"
+    ],
+    [
+        "breakpoint",
+        202,
+        "0:",
+        "→"
+    ],
+    [
+        "checkcast",
+        192,
+        "2:cps",
+        "objectref → objectref"
+    ],
+    [
+        "d2i",
+        142,
+        "0:",
+        "value → result"
+    ],
+    [
+        "d2l",
+        143,
+        "0:",
+        "value → result"
+    ],
+    [
+        "dconst_0",
+        14,
+        "0:",
+        "→ 0.0"
+    ],
+    [
+        "dconst_1",
+        15,
+        "0:",
+        "→ 1.0"
+    ],
+    [
+        "ddiv",
+        111,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dmul",
+        107,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "dreturn",
+        175,
+        "0:",
+        "value → [empty]"
+    ],
+    [
+        "dstore_3",
+        74,
+        "0:",
+        "value →"
+    ],
+    [
+        "dup_x1",
+        90,
+        "0:",
+        "value2, value1 → value1, value2, value1"
+    ],
+    [
+        "dup_x2",
+        91,
+        "0:",
+        "value3, value2, value1 → value1, value3, value2, value1"
+    ],
+    [
+        "dup2",
+        92,
+        "0:",
+        "{value2, value1} → {value2, value1}, {value2, value1}"
+    ],
+    [
+        "dup2_x1",
+        93,
+        "0:",
+        "value3, {value2, value1} → {value2, value1}, value3, {value2, value1}"
+    ],
+    [
+        "dup2_x2",
+        94,
+        "0:",
+        "{value4, value3}, {value2, value1} → {value2, value1}, {value4, value3}, {value2, value1}"
+    ],
+    [
+        "f2d",
+        141,
+        "0:",
+        "value → result"
+    ],
+    [
+        "f2i",
+        139,
+        "0:",
+        "value → result"
+    ],
+    [
+        "f2l",
+        140,
+        "0:",
+        "value → result"
+    ],
+    [
+        "fconst_0",
+        11,
+        "0:",
+        "→ 0.0f"
+    ],
+    [
+        "fconst_1",
+        12,
+        "0:",
+        "→ 1.0f"
+    ],
+    [
+        "fconst_2",
+        13,
+        "0:",
+        "→ 2.0f"
+    ],
+    [
+        "fdiv",
+        110,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "fmul",
+        106,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "freturn",
+        174,
+        "0:",
+        "value → [empty]"
+    ],
+    [
+        "getfield",
+        180,
+        "2:cps",
+        "objectref → value"
+    ],
+    [
+        "getstatic",
+        178,
+        "2:cps",
+        "→ value"
+    ],
+    [
+        "goto",
+        167,
+        "2:byte,byte",
+        "[no change]"
+    ],
+    [
+        "goto_w",
+        200,
+        "4:byte,byte,byte,byte",
+        "[no change]"
+    ],
+    [
+        "iaload",
+        46,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "iand",
+        126,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "iastore",
+        79,
+        "0:",
+        "arrayref, index, value →"
+    ],
+    [
+        "iconst_m1",
+        2,
+        "0:",
+        "→ -1"
+    ],
+    [
+        "iconst_0",
+        3,
+        "0:",
+        "→ 0"
+    ],
+    [
+        "iconst_1",
+        4,
+        "0:",
+        "→ 1"
+    ],
+    [
+        "iconst_2",
+        5,
+        "0:",
+        "→ 2"
+    ],
+    [
+        "iconst_3",
+        6,
+        "0:",
+        "→ 3"
+    ],
+    [
+        "iconst_4",
+        7,
+        "0:",
+        "→ 4"
+    ],
+    [
+        "iconst_5",
+        8,
+        "0:",
+        "→ 5"
+    ],
+    [
+        "idiv",
+        108,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "if_acmpeq",
+        165,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_acmpne",
+        166,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmpeq",
+        159,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmpge",
+        162,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmpgt",
+        163,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmple",
+        164,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmplt",
+        161,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "if_icmpne",
+        160,
+        "2:byte,byte",
+        "value1, value2 →"
+    ],
+    [
+        "ifge",
+        156,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "ifgt",
+        157,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "ifle",
+        158,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "iflt",
+        155,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "ifne",
+        154,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "ifnonnull",
+        199,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "ifnull",
+        198,
+        "2:byte,byte",
+        "value →"
+    ],
+    [
+        "iload_0",
+        26,
+        "0:",
+        "→ value"
+    ],
+    [
+        "iload_1",
+        27,
+        "0:",
+        "→ value"
+    ],
+    [
+        "iload_2",
+        28,
+        "0:",
+        "→ value"
+    ],
+    [
+        "iload_3",
+        29,
+        "0:",
+        "→ value"
+    ],
+    [
+        "impdep1",
+        254,
+        "0:",
+        "→"
+    ],
+    [
+        "impdep2",
+        255,
+        "0:",
+        "→"
+    ],
+    [
+        "instanceof",
+        193,
+        "2:cps",
+        "objectref → result"
+    ],
+    [
+        "invokedynamic",
+        186,
+        "4:cps,byte,byte",
+        "[arg1, arg2, ...] → result"
+    ],
+    [
+        "invokeinterface",
+        185,
+        "4:cps,byte,byte",
+        "objectref, [arg1, arg2, ...] → result"
+    ],
+    [
+        "invokespecial",
+        183,
+        "2:cps",
+        "objectref, [arg1, arg2, ...] → result"
+    ],
+    [
+        "invokestatic",
+        184,
+        "2:cps",
+        "[arg1, arg2, ...] → result"
+    ],
+    [
+        "invokevirtual",
+        182,
+        "2:cps",
+        "objectref, [arg1, arg2, ...] → result"
+    ],
+    [
+        "ireturn",
+        172,
+        "0:",
+        "value → [empty]"
+    ],
+    [
+        "ishr",
+        122,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "istore_0",
+        59,
+        "0:",
+        "value →"
+    ],
+    [
+        "istore_1",
+        60,
+        "0:",
+        "value →"
+    ],
+    [
+        "istore_2",
+        61,
+        "0:",
+        "value →"
+    ],
+    [
+        "istore_3",
+        62,
+        "0:",
+        "value →"
+    ],
+    [
+        "iushr",
+        124,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "jsr",
+        168,
+        "2:byte,byte",
+        "→ address"
+    ],
+    [
+        "jsr_w",
+        201,
+        "4:byte,byte,byte,byte",
+        "→ address"
+    ],
+    [
+        "l2d",
+        138,
+        "0:",
+        "value → result"
+    ],
+    [
+        "laload",
+        47,
+        "0:",
+        "arrayref, index → value"
+    ],
+    [
+        "land",
+        127,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lconst_0",
+        9,
+        "0:",
+        "→ 0L"
+    ],
+    [
+        "lconst_1",
+        10,
+        "0:",
+        "→ 1L"
+    ],
+    [
+        "ldiv",
+        109,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lload_0",
+        30,
+        "0:",
+        "→ value"
+    ],
+    [
+        "lload_1",
+        31,
+        "0:",
+        "→ value"
+    ],
+    [
+        "lookupswitch",
+        171,
+        "8+:<0–3 bytes padding>, defaultbyte, defaultbyte2, defaultbyte3, defaultbyte4, npairs1, npairs2, npairs3, npairs4, match-offset pairs...",
+        "key →"
+    ],
+    [
+        "lreturn",
+        173,
+        "0:",
+        "value → [empty]"
+    ],
+    [
+        "lshr",
+        123,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "lstore_0",
+        63,
+        "0:",
+        "value →"
+    ],
+    [
+        "lushr",
+        125,
+        "0:",
+        "value1, value2 → result"
+    ],
+    [
+        "monitorenter",
+        194,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "monitorexit",
+        195,
+        "0:",
+        "objectref →"
+    ],
+    [
+        "multianewarray",
+        197,
+        "3:cps,byte",
+        "count1, [count2,...] → arrayref"
+    ],
+    [
+        "new",
+        187,
+        "2:cps",
+        "→ objectref"
+    ],
+    [
+        "newarray",
+        188,
+        "1:byte",
+        "count → arrayref"
+    ],
+    [
+        "nop",
+        0,
+        "0:",
+        "[No change]"
+    ],
+    [
+        "putfield",
+        181,
+        "2:cps",
+        "objectref, value →"
+    ],
+    [
+        "putstatic",
+        179,
+        "2:cps",
+        "value →"
+    ],
+    [
+        "ret",
+        169,
+        "1:index",
+        "[No change]"
+    ],
+    [
+        "return",
+        177,
+        "0:",
+        "→ [empty]"
+    ],
+    [
+        "swap",
+        95,
+        "0:",
+        "value2, value1 → value1, value2"
+    ],
+    [
+        "tableswitch",
+        170,
+        "16+:[0–3 bytes padding], defaultbyte, defaultbyte2, defaultbyte3, defaultbyte4, lowbyte, lowbyte2, lowbyte3, lowbyte4, highbyte, highbyte2, highbyte3, highbyte4, jump offsets...",
+        "index →"
+    ],
+    [
+        "wide",
+        196,
+        "3/5:opcode, indexbyte, indexbyte2 OR iinc, indexbyte, indexbyte2, countbyte, countbyte2",
+        "[same as for corresponding instructions]"
+    ]
+]
